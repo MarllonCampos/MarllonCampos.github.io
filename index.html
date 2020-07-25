@@ -5,112 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Social</title>
-
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-        }
-
-        html {
-            width: 100vw;
-            height: 100vh;
-            overflow-x: hidden;
-        }
-
-        body {
-            background: linear-gradient(to bottom right, #7159c1, #c20899);
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-        }
-
-        h1 {
-            margin-left: 12px;
-            color: #f0f0f5;
-            border-bottom: 4px groove darkseagreen;
-            width: fit-content;
-
-        }
-
-        h2 {
-            margin-bottom: 8px;
-        }
-
-        main {
-            margin: 0 20px;
-            color: #f0f0f5;
-            line-height: 1.9rem;
-        }
-
-        strong {
-            color: rgba(224, 246, 78, 0.829);
-        }
-
-        main ul {
-            margin-left: 22px;
-        }
-
-        main ul li {
-            display: flex;
-            align-items: bottom;
-            margin-bottom: 12px;
-        }
-
-        li img {
-            margin-right: 4px;
-        }
-
-        img {
-            border-radius: 50%;
-        }
-
-        .wrapper ul li {
-            margin-left: 15px;
-            margin-top: 13px;
-            display: flex;
-            flex-direction: column;
-
-        }
- 
-
-        .wrapper ul li p{
-            margin-left: 9px;
-        }
-        
-        main .wrapper ul li p a{
-            text-decoration: underline;
-            color:#bee6fa;
-            font-weight: bold;
-        }
-
-        main .wrapper ul li p:last-child{
-            border-radius: 5px;
-            border-bottom: 1px groove #f0f0f5;
-            width: fit-content;
-
-        }
-
-
-        footer {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            bottom: 0;
-            width: 100%;
-            height: 3vh;
-            background-color: #000;
-            color: #fff;
-        }
-
-        footer a {
-            text-decoration: underline;
-            color: lawngreen;
-        }
-
-    </style>
-
-
-    <!--<link rel="shortcut icon" href="imagens/myimageresized.ico">-->
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 
 <body>
@@ -120,13 +15,9 @@
         <br>
         <h2>Quem sou eu?</h2>
         <img src="imagens/myImageResized.png" alt="">
-        <p>Meu nome é <strong>Marllon Campos</strong>, sou aluno no curso de Ciências da Computação desde 2018 e hoje
-            estou cursando o <strong>5º Semestre</strong> e treinando minhas habilidades em HTML, CSS, Javascript e
-            Python
+        <p>Meu nome é <strong>Marllon Campos</strong>, sou aluno no curso de Ciências da Computação desde 2018 e hoje estou cursando o <strong>6º Semestre</strong> e treinando minhas habilidades em HTML, CSS, Javascript e Python
         </p>
-        <p>Pretendendo desenvolver sites e aplicativos comecei minha jornada estudando o basico linguagem de programação
-            Javascript, hoje em dia estou procurando alguns frameworks para desenvolver "nativamente" em aparelhos
-            mobiles, como por exemplo o React
+        <p>Pretendendo desenvolver sites e aplicativos comecei minha jornada estudando o basico linguagem de programação Javascript, hoje em dia estou procurando alguns frameworks para desenvolver "nativamente" em aparelhos mobiles, como por exemplo o React
             Native </p>
         <br>
 
@@ -151,47 +42,11 @@
     </main>
 
     <footer>
-        <p>Alguns icones foram feitor por <a href="https://www.flaticon.com/br/autores/freepik"
-                title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/br/" title="Flaticon">
+        <p>Alguns icones foram feitor por <a href="https://www.flaticon.com/br/autores/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/br/" title="Flaticon">
                 www.flaticon.com</a></p>
     </footer>
 
-
-    <script>
-
-        const ul = document.getElementsByTagName("ul")[1];
-
-        async function getRepos() {
-            const response = await fetch('https://api.github.com/users/marlloncampos/repos')
-            const repos = await response.json()
-
-            return repos
-        }
-
-
-        showInfo()
-
-        async function showInfo() {
-            let data
-            data = await getRepos()
-
-            data.forEach(element => {
-                var li = document.createElement('li')
-                var p = document.createElement('p')
-                var anotherP = document.createElement('p')
-                li.innerHTML = `<strong>* ${element.full_name}</strong>`
-                p.innerHTML = `<a href="${element.html_url}" target="_blank">${element.name} </a>`
-                if (element.description) {
-                    anotherP.innerHTML = `<strong>Descrição: </strong>${element.description}`
-                }
-                li.appendChild(p)
-                li.appendChild(anotherP)
-                ul.appendChild(li)
-
-            })
-        }
-
-    </script>
+    <script src="scripts/script.js"></script>
 </body>
 
 </html>
