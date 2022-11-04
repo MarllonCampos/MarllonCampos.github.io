@@ -1,0 +1,46 @@
+{
+  "tecnologies": [
+    {
+      "name": "StoryBook",
+      "image": {
+        "url": "/imagens/icons/storybook.svg",
+        "alt": "StoryBook"
+      }
+    },
+    {
+      "name": "CSS",
+      "image": {
+        "url": "/imagens/icons/css-icon.svg",
+        "alt": "CSS"
+      }
+    },
+    {
+      "name": "React",
+      "image": {
+        "url": "/imagens/icons/react-icon.svg",
+        "alt": "React"
+      }
+    },
+    {
+      "name": "HTML",
+      "image": {
+        "url": "/imagens/icons/html-icon.svg",
+        "alt": "HTML"
+      }
+    },
+    {
+      "name": "NextJS",
+      "image": {
+        "url": "/imagens/icons/next-icon.svg",
+        "alt": "NextJS"
+      }
+    },
+    {
+      "name": "NodeJS",
+      "image": {
+        "url": "/imagens/icons/nodejs-icon.svg",
+        "alt": "NodeJS"
+      }
+    }
+  ]
+}
