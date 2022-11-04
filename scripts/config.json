@@ -42,5 +42,46 @@
         "alt": "NodeJS"
       }
     }
+  ],
+  "projects": [
+    {
+      "name": "Site de Gatinhos",
+      "chips": [
+        "HTML",
+        "CSS",
+        "JS"
+      ],
+      "githubLink": "https://github.com/MarllonCampos/Gatinhos",
+      "image": {
+        "url": "/imagens/project-kittens.png",
+        "alt": "Gatinhos"
+      }
+    },
+    {
+      "name": "Munchkin Help App",
+      "chips": [
+        "NextJS",
+        "React",
+        "JS"
+      ],
+      "githubLink": "https://github.com/MarllonCampos/munchkin-app",
+      "image": {
+        "url": "/imagens/project-kittens.png",
+        "alt": "Gatinhos"
+      }
+    },
+    {
+      "name": "Cha de Cozinha",
+      "chips": [
+        "NextJS",
+        "React",
+        "SCSS"
+      ],
+      "githubLink": "https://github.com/MarllonCampos/ester-e-fabricio",
+      "image": {
+        "url": "/imagens/project-kittens.png",
+        "alt": "Gatinhos"
+      }
+    }
   ]
 }
