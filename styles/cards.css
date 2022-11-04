@@ -75,6 +75,7 @@
   align-items: center;
   font-weight: bold;
   gap:4px;
+  min-height: 51px;
 }
 
 .experience-header .experience-company {
