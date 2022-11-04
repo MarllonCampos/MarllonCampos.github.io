@@ -1,0 +1,116 @@
+
+.project-card {
+  aspect-ratio: 1/1;
+  position: relative;
+  border-radius: 8px;
+  transition: transform 0.2s ease-in;
+  min-width: 250px;
+  height: 250px;
+}
+
+.project-card:hover {
+  transform: translate(-5px, -5px);
+  box-shadow: var(--white-500) 0px 25px 50px -12px;
+}
+
+.project-card img {
+  height:100%;
+  width: 100%;
+  max-height: 250px;
+  max-width: 250px;
+  border-radius: 8px;
+}
+
+.project-card .project-info{
+  position: absolute;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  border-radius: 8px;
+
+  padding: 8px;
+  height: 80px;
+  
+  bottom: 0;
+  right: 0;
+  left: 0;
+  
+  background-color: var(--white-100);
+  color: var(--base-500);
+  border-top: 2px solid var(--white-400);
+}
+
+.project-info .techs  {
+  display: flex;
+  gap: 8px;
+}
+
+.tech-chip {
+  border-radius: 10px;
+  background-color: var(--base-300);
+  color: var(--white-100);
+  padding: 2px 8px;
+  display: block;
+}
+
+.experience-card {
+  max-width: 440px;
+  width: 100%;
+  padding: 15px;
+  background-color: var(--white-100);
+  color:var(--base-100);
+  border-radius: 8px;
+  font-size: 12px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.experience-header {
+  display: flex;
+  justify-content: space-around;
+  font-weight: bold;
+  gap:4px;
+}
+
+.experience-header .experience-company {
+  flex:1;
+  text-align: center;
+}
+.experience-card p {
+  font-weight: bold;
+}
+
+.experience-card p span {
+  font-weight: 400;
+}
+.experience-card ul {
+  padding: 0 24px;
+  font-size: 12px;
+}
+
+
+.experience-card ul :not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.tecnology-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.tecnology-card img {
+  width: 145px;
+  height: 154px;
+}
+
+.tecnology-card p {
+  font-weight: bold;
+  font-size: 28px;
+}

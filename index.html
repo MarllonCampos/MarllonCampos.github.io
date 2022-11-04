@@ -1,52 +1,307 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Marllon Campos</title>
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/variables.css" />
+    <link rel="stylesheet" href="styles/cards.css" />
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Social</title>
-    <link rel="stylesheet" href="styles/styles.css">
-</head>
+  <body>
+    <header>
+      <div class="container">
+        <a href="#projetos">Projetos</a>
+        <a href="#experiencias">Experiências</a>
+        <a href="#tecnologias">Tecnologias</a>
+      </div>
+    </header>
 
-<body>
+    <section class="info">
+      <h1>Marllon Campos</h1>
+      <p class="description">
+        Meu nome é Marllon tenho 22 anos e sou formado em
+        Ciências Da Computação, estudo JavaScript há
+        aproximadamente 4 anos, e trabalho com o
+        desenvolvimento no frontend há 3 anos, utilizando
+        como Framework/Lib o React, também ja trabalhei no
+        backend com Node/Express e tive uma pequena
+        experiência com Ruby.
+      </p>
+      <p class="description">
+        No frontend ja auxiliei na construção de
+        LandingPages com Next, e também a criação de um
+        design system, utilizando o StoryBook para
+        documentar os components criados.
+      </p>
+    </section>
 
-    <h1>Descrição & Contatos</h1>
-    <main>
-        <br>
-        <h2>Quem sou eu?</h2>
-        <img src="imagens/myImageResized.png" alt="">
-        <p>Meu nome é <strong>Marllon Campos</strong>, sou aluno no curso de Ciências da Computação desde 2018 e hoje estou cursando o <strong>6º Semestre</strong> e treinando minhas habilidades em HTML, CSS, Javascript e Python
-        </p>
-        <p>Pretendendo desenvolver sites e aplicativos comecei minha jornada estudando o basico linguagem de programação Javascript, hoje em dia estou procurando alguns frameworks para desenvolver "nativamente" em aparelhos mobiles, como por exemplo o React
-            Native </p>
-        <br>
+    <section class="projects" id="projetos">
+      <h2>Projetos</h2>
 
-        <h2>Como falar comigo?</h2>
-        <br>
-        <ul>
+      <div class="row">
+        <a
+          class="project-card"
+          href="https://marlloncampos.github.io/Gatinhos/"
+        >
+          <img src="/imagens/project-kittens.png" alt="" />
+          <div class="project-info">
+            <strong class="project-name">Gatinhos</strong>
+            <div class="techs">
+              <span class="tech-chip">React</span>
+            </div>
+          </div>
+        </a>
+        <a
+          class="project-card"
+          href="https://marlloncampos.github.io/Gatinhos/"
+        >
+          <img src="/imagens/project-kittens.png" alt="" />
+          <div class="project-info">
+            <strong class="project-name">Gatinhos</strong>
+            <div class="techs">
+              <span class="tech-chip">React</span>
+            </div>
+          </div>
+        </a>
+        <a
+          class="project-card"
+          href="https://marlloncampos.github.io/Gatinhos/"
+        >
+          <img src="/imagens/project-kittens.png" alt="" />
+          <div class="project-info">
+            <strong class="project-name">Gatinhos</strong>
+            <div class="techs">
+              <span class="tech-chip">React</span>
+            </div>
+          </div>
+        </a>
+        <a
+          class="project-card"
+          href="https://marlloncampos.github.io/Gatinhos/"
+        >
+          <img src="/imagens/project-kittens.png" alt="" />
+          <div class="project-info">
+            <strong class="project-name">Gatinhos</strong>
+            <div class="techs">
+              <span class="tech-chip">React</span>
+            </div>
+          </div>
+        </a>
+        <a
+          class="project-card"
+          href="https://marlloncampos.github.io/Gatinhos/"
+        >
+          <img src="/imagens/project-kittens.png" alt="" />
+          <div class="project-info">
+            <strong class="project-name">Gatinhos</strong>
+            <div class="techs">
+              <span class="tech-chip">React</span>
+            </div>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section class="experiences" id="experiencias">
+      <h2>Experiências</h2>
+      <div class="experience-row">
+        <div class="experience-card">
+          <div class="experience-header">
+            <img
+              src="/imagens/icons/mesalva-logo.svg"
+              alt=""
+            />
+            <span class="experience-company"
+              >MeSalva! Cursos e Consultorias Ltda.</span
+            >
+            <span class="experience-time"
+              >Jun/2021 - Set/2022</span
+            >
+          </div>
+          <p>
+            Cargo: <span>Desenvolvedor de Software</span>
+          </p>
+          <h4>Descrição</h4>
+          <ul>
             <li>
-                <img src="imagens/Logo_Outlook.png" alt=""> <strong>marlloncampos@outlook.com</strong>
+              Ajudei no desenvolvimento do design system
+              utilizado hoje nas novas páginas do site
             </li>
             <li>
-                <img src="imagens/gmail.png" alt=""><strong>marllondcsp@gmail.com</strong>
+              Auxiliei o desenvolvimento de algumas rotas de
+              BFF no backend
             </li>
-        </ul>
-
-        <h2>REPOSITÓRIOS</h2>
-        <div class="wrapper">
-            <ul>
-                <strong style="color:lawngreen; fontWeight:bold">Repositórios do Github</strong>
-            </ul>
-
+            <li>Criei componentes para o design system</li>
+          </ul>
         </div>
-    </main>
+        <div class="experience-card">
+          <div class="experience-header">
+            <img
+              src="/imagens/icons/mesalva-logo.svg"
+              alt=""
+            />
+            <span class="experience-company"
+              >MeSalva! Cursos e Consultorias Ltda.</span
+            >
+            <span class="experience-time"
+              >Jun/2021 - Set/2022</span
+            >
+          </div>
+          <p>
+            Cargo: <span>Desenvolvedor de Software</span>
+          </p>
+          <h4>Descrição</h4>
+          <ul>
+            <li>
+              Ajudei no desenvolvimento do design system
+              utilizado hoje nas novas páginas do site
+            </li>
+            <li>
+              Auxiliei o desenvolvimento de algumas rotas de
+              BFF no backend
+            </li>
+            <li>Criei componentes para o design system</li>
+          </ul>
+        </div>
+        <div class="experience-card">
+          <div class="experience-header">
+            <img
+              src="/imagens/icons/mesalva-logo.svg"
+              alt=""
+            />
+            <span class="experience-company"
+              >MeSalva! Cursos e Consultorias Ltda.</span
+            >
+            <span class="experience-time"
+              >Jun/2021 - Set/2022</span
+            >
+          </div>
+          <p>
+            Cargo: <span>Desenvolvedor de Software</span>
+          </p>
+          <h4>Descrição</h4>
+          <ul>
+            <li>
+              Ajudei no desenvolvimento do design system
+              utilizado hoje nas novas páginas do site
+            </li>
+            <li>
+              Auxiliei o desenvolvimento de algumas rotas de
+              BFF no backend
+            </li>
+            <li>Criei componentes para o design system</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="tecnologias" class="tecnologies">
+      <h2>Tecnologias</h2>
+
+      <div class="row">
+        <div class="tecnology-card">
+          <img
+            src="imagens/icons/storybook.svg"
+            alt="Icone do Storybook"
+          />
+          <p>StoryBook</p>
+        </div>
+        <div class="tecnology-card">
+          <img
+            src="imagens/icons/storybook.svg"
+            alt="Icone do Storybook"
+          />
+          <p>StoryBook</p>
+        </div>
+        <div class="tecnology-card">
+          <img
+            src="imagens/icons/storybook.svg"
+            alt="Icone do Storybook"
+          />
+          <p>StoryBook</p>
+        </div>
+        <div class="tecnology-card">
+          <img
+            src="imagens/icons/storybook.svg"
+            alt="Icone do Storybook"
+          />
+          <p>StoryBook</p>
+        </div>
+        <div class="tecnology-card">
+          <img
+            src="imagens/icons/storybook.svg"
+            alt="Icone do Storybook"
+          />
+          <p>StoryBook</p>
+        </div>
+        <div class="tecnology-card">
+          <img
+            src="imagens/icons/storybook.svg"
+            alt="Icone do Storybook"
+          />
+          <p>StoryBook</p>
+        </div>
+        <div class="tecnology-card">
+          <img
+            src="imagens/icons/storybook.svg"
+            alt="Icone do Storybook"
+          />
+          <p>StoryBook</p>
+        </div>
+        <div class="tecnology-card">
+          <img
+            src="imagens/icons/storybook.svg"
+            alt="Icone do Storybook"
+          />
+          <p>StoryBook</p>
+        </div>
+      </div>
+    </section>
 
     <footer>
-        <p>Alguns icones foram feitor por <a href="https://www.flaticon.com/br/autores/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/br/" title="Flaticon">
-                www.flaticon.com</a></p>
+      <div class="container">
+        <a
+          class="social"
+          target="_blank"
+          href="https://github.com/MarllonCampos"
+        >
+          <img src="imagens/icons/github-icon.svg" alt="" />
+          <span>Meu Github</span>
+        </a>
+        <a
+          class="social"
+          target="_blank"
+          href="https://www.linkedin.com/in/marllon-campos/"
+        >
+          <img
+            src="imagens/icons/linkedin-icon.svg"
+            alt=""
+          />
+          <span>Meu Linkedin</span>
+        </a>
+        <a class="social">
+          <img src="imagens/icons/gmail-icon.svg" alt="" />
+          <span>marllondcsp@gmail.com</span>
+        </a>
+      </div>
     </footer>
-
-    <script src="scripts/script.js"></script>
-</body>
-
+  </body>
 </html>
