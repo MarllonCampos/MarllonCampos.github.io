@@ -10,6 +10,10 @@ a {
     color: var(--white-100);
 }
 
+p {
+    font-family: Roboto, sans-serif;
+
+}
 
 html {
     scroll-behavior: smooth;
@@ -18,8 +22,33 @@ html {
 body {
     background: linear-gradient(148.74deg, var(--base-100) -2.93%, rgba(0, 0, 0, 0.8) 106.63%);
     color: var(--white-100);
-
 }
+
+.row {
+    gap: 24px;
+    width: 100%;
+    padding: 24px;
+    display: flex;
+	flex-wrap: nowrap;
+	overflow: auto;
+}
+
+
+
+.row::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+}
+  
+.row::-webkit-scrollbar-track {
+    background: var(--white-500);        /* color of the tracking area */
+}
+
+.row::-webkit-scrollbar-thumb {
+    background-color: var(--base-100);    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 4px solid  var(--white-500);  /* creates padding around scroll thumb */
+}
+
 
 .container {
     display: flex;
@@ -67,6 +96,8 @@ section {
 section h2 {
     font-size:54px;
     font-weight: 300;
+    width: 100%;
+    text-align: center;
 }
 
 .info {
@@ -98,30 +129,67 @@ section h2 {
     gap: 24px;
 }
 
-.row {
-    gap: 24px;
-    width: 100%;
-    padding: 24px;
+
+.fullstack-projects {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.fullstack-projects__img {
+    border-radius: 12px;
+    width: 100%;    
+    height: 100%;
+    max-width: 400px;
+
+}
+
+.fullstack-projects .img-holder {
+    position: relative;
+}
+
+.fullstack-projects .img-holder::after { 
+    content: "";
+    position: absolute;
+    background:var(--base-400) url(../imagens/icons/github-icon.svg) no-repeat center center;
+    background-size: 100%;
+    border-radius: 100%;
+    width: 24px;
+    height: 24px;
+    bottom: 12px;
+    left: 12px;
+}
+
+
+.fullstack-projects .project-info {
     display: flex;
-	flex-wrap: nowrap;
-	overflow: auto;
+    flex-direction: column;
+    gap: 8px;
+    margin-left: 18px;
+    align-self: flex-start;
+    flex: 1;
 }
 
-
-
-.row::-webkit-scrollbar {
-    width: 12px;               /* width of the entire scrollbar */
-}
-  
-.row::-webkit-scrollbar-track {
-    background: var(--white-500);        /* color of the tracking area */
+.fullstack-projects .project-info h3{
+    text-decoration: underline;
 }
 
-.row::-webkit-scrollbar-thumb {
-    background-color: var(--base-100);    /* color of the scroll thumb */
-    border-radius: 20px;       /* roundness of the scroll thumb */
-    border: 4px solid  var(--white-500);  /* creates padding around scroll thumb */
+.fullstack-projects .project-info p {
+    font-weight: 100;
 }
+
+.fullstack-projects .project-info ul {
+    padding-left: 17px;
+}
+.fullstack-projects .project-info ul li { 
+    font-size: 15px;
+    margin-top: 3px;
+}
+
+.fullstack-projects .project-info .tech-chip {
+    background-color: var(--blue-100);
+}
+
 
 
 .experiences .experience-row {
@@ -149,3 +217,5 @@ footer {
         justify-content: space-evenly;
     }
 }
+
+

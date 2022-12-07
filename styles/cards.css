@@ -44,13 +44,14 @@
 
 .project-info .techs  {
   display: flex;
-  gap: 8px;
+  gap: 12px 8px;
+  color: var(--white-100);
 }
 
 .tech-chip {
   border-radius: 10px;
   background-color: var(--base-300);
-  color: var(--white-100);
+  color: inherit;
   padding: 2px 8px;
   display: block;
 }
@@ -115,4 +116,11 @@
 .tecnology-card p {
   font-weight: bold;
   font-size: 28px;
+}
+
+
+@media screen and (max-width: 580px) {
+  .project-info .techs {
+    flex-wrap: wrap
+  }
 }
