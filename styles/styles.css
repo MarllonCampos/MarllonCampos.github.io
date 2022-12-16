@@ -188,6 +188,7 @@ section h2 {
 
 .fullstack-projects .project-info .tech-chip {
     background-color: var(--blue-100);
+    white-space: nowrap;
 }
 
 
