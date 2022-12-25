@@ -50,10 +50,12 @@
 
 .tech-chip {
   border-radius: 10px;
-  background-color: var(--base-300);
-  color: inherit;
+  background-color: var(--blue-100);
+  color: var(--white-100);
   padding: 2px 8px;
-  display: block;
+  display: inline-block;
+  white-space: nowrap;
+
 }
 
 .experience-card {
@@ -95,8 +97,12 @@
   font-size: 12px;
 }
 
+.experience-card .techs { 
+  margin-top: auto;
+}
 
-.experience-card ul :not(:last-child) {
+
+.experience-card ul li:not(:last-child) {
   margin-bottom: 8px;
 }
 
@@ -119,8 +125,8 @@
 }
 
 
-@media screen and (max-width: 580px) {
-  .project-info .techs {
-    flex-wrap: wrap
-  }
+
+.tecnology-card + .tecnology-card {
+  margin-left: 24px;
 }
+

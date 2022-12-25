@@ -25,11 +25,12 @@ body {
 }
 
 .row {
-    gap: 24px;
     width: 100%;
     padding: 24px;
     display: flex;
+    white-space: nowrap;
 	flex-wrap: nowrap;
+    gap: 24px;
 	overflow: auto;
 }
 
@@ -186,11 +187,6 @@ section h2 {
     margin-top: 3px;
 }
 
-.fullstack-projects .project-info .tech-chip {
-    background-color: var(--blue-100);
-    white-space: nowrap;
-}
-
 
 
 .experiences .experience-row {
@@ -213,10 +209,5 @@ footer {
     gap: 8px;
 }
 
-@media screen and (min-width: 620px) {
-    .row {
-        justify-content: space-evenly;
-    }
-}
 
 
