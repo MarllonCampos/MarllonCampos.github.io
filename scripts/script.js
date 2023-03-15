@@ -16,11 +16,12 @@ document.addEventListener('DOMContentLoaded', async () => {
 
 
 function createProject(project) {
-
+    const isProjectClosed = project.closed
     const projectCard = document.createElement('a')
     projectCard.classList.add('project-card')
     projectCard.setAttribute('href', project.githubLink)
     projectCard.setAttribute('target', '_blank')
+    isProjectClosed && projectCard.classList.add("closed")
 
     const projectImg = document.createElement('img')
     projectImg.setAttribute('src', project.image.url)

@@ -1,10 +1,10 @@
 {
   "tecnologies": [
     {
-      "name": "StoryBook",
+      "name": "HTML",
       "image": {
-        "url": "/imagens/icons/storybook.svg",
-        "alt": "StoryBook"
+        "url": "/imagens/icons/html-icon.svg",
+        "alt": "HTML"
       }
     },
     {
@@ -15,6 +15,20 @@
       }
     },
     {
+      "name": "JavaScript",
+      "image": {
+        "url": "/imagens/icons/js-icon.svg",
+        "alt": "JavaScript"
+      }
+    },
+    {
+      "name": "TailwindCSS",
+      "image": {
+        "url": "/imagens/icons/tailwind-icon.svg",
+        "alt": "TailwindCSS"
+      }
+    },
+    {
       "name": "React",
       "image": {
         "url": "/imagens/icons/react-icon.svg",
@@ -22,10 +36,10 @@
       }
     },
     {
-      "name": "HTML",
+      "name": "React Native",
       "image": {
-        "url": "/imagens/icons/html-icon.svg",
-        "alt": "HTML"
+        "url": "/imagens/icons/react-icon.svg",
+        "alt": "React Native"
       }
     },
     {
@@ -36,10 +50,24 @@
       }
     },
     {
+      "name": "StoryBook",
+      "image": {
+        "url": "/imagens/icons/storybook.svg",
+        "alt": "StoryBook"
+      }
+    },
+    {
       "name": "NodeJS",
       "image": {
         "url": "/imagens/icons/nodejs-icon.svg",
         "alt": "NodeJS"
+      }
+    },
+    {
+      "name": "PrismaORM",
+      "image": {
+        "url": "/imagens/icons/prisma-icon.svg",
+        "alt": "Prisma"
       }
     }
   ],
@@ -81,7 +109,8 @@
       "image": {
         "url": "/imagens/project-cha-de-cozinha.png",
         "alt": "Gatinhos"
-      }
+      },
+      "closed": true
     }
   ]
 }
