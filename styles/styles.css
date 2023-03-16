@@ -124,15 +124,13 @@ section h2 {
   gap: 24px;
 }
 
-.fullstack-projects,
-.project-full {
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
+.fullstack-projects {
+  flex-direction: column;
 }
-
 .project-full {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 24px;
 }
 
@@ -163,9 +161,14 @@ section h2 {
   display: flex;
   flex-direction: column;
   gap: 8px;
-  margin-left: 18px;
   align-self: flex-start;
   flex: 1;
+}
+
+.project-info .techs {
+  display: flex;
+  margin-top: 8px;
+  gap: 12px 8px;
 }
 
 .project-full .project-info h3 {
@@ -201,4 +204,10 @@ footer {
   display: flex;
   align-items: center;
   gap: 8px;
+}
+
+@media (max-width: 500px) {
+  .project-info .techs {
+    flex-wrap: wrap;
+  }
 }
