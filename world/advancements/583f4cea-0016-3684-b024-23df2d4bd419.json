@@ -31,6 +31,7 @@
       "minecraft:windswept_savanna": "2023-04-11 01:42:36 +0000",
       "minecraft:old_growth_birch_forest": "2023-04-07 06:59:23 +0000",
       "minecraft:deep_dark": "2023-04-13 00:11:34 +0000",
+      "minecraft:meadow": "2023-04-16 04:12:04 +0000",
       "minecraft:savanna": "2023-04-10 04:41:47 +0000",
       "minecraft:plains": "2023-04-09 03:03:00 +0000"
     },
@@ -212,6 +213,7 @@
     "criteria": {
       "minecraft:pillager": "2023-04-09 03:04:35 +0000",
       "minecraft:skeleton": "2023-04-07 05:12:23 +0000",
+      "minecraft:vindicator": "2023-04-16 04:13:05 +0000",
       "minecraft:spider": "2023-04-07 05:53:26 +0000",
       "minecraft:creeper": "2023-04-07 05:54:14 +0000",
       "minecraft:phantom": "2023-04-10 06:21:18 +0000",
@@ -2321,6 +2323,60 @@
   "minecraft:recipes/brewing/cauldron": {
     "criteria": {
       "has_water_bucket": "2023-04-13 00:18:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/chest_minecart": {
+    "criteria": {
+      "has_minecart": "2023-04-16 04:45:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/furnace_minecart": {
+    "criteria": {
+      "has_minecart": "2023-04-16 04:45:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/hopper_minecart": {
+    "criteria": {
+      "has_minecart": "2023-04-16 04:45:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
+    "criteria": {
+      "has_iron_block": "2023-04-16 04:26:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/emerald_block": {
+    "criteria": {
+      "has_emerald": "2023-04-16 04:28:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/tnt_minecart": {
+    "criteria": {
+      "has_minecart": "2023-04-16 04:45:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/green_dye": {
+    "criteria": {
+      "has_cactus": "2023-04-16 05:09:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/anvil": {
+    "criteria": {
+      "has_iron_block": "2023-04-16 04:26:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/rail": {
+    "criteria": {
+      "has_minecart": "2023-04-16 04:45:57 +0000"
     },
     "done": true
   },

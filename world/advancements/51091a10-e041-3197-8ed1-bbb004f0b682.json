@@ -9,6 +9,7 @@
     "criteria": {
       "minecraft:taiga": "2023-04-12 05:06:21 +0000",
       "minecraft:birch_forest": "2023-04-12 05:01:57 +0000",
+      "minecraft:wooded_badlands": "2023-04-16 04:48:43 +0000",
       "minecraft:badlands": "2023-04-12 04:37:13 +0000",
       "minecraft:river": "2023-04-11 06:02:10 +0000",
       "minecraft:lukewarm_ocean": "2023-04-12 04:47:56 +0000",
@@ -22,8 +23,10 @@
       "minecraft:ocean": "2023-04-12 04:53:24 +0000",
       "minecraft:warm_ocean": "2023-04-12 04:47:49 +0000",
       "minecraft:deep_lukewarm_ocean": "2023-04-12 04:49:54 +0000",
+      "minecraft:flower_forest": "2023-04-16 04:06:07 +0000",
       "minecraft:old_growth_birch_forest": "2023-04-12 05:05:38 +0000",
       "minecraft:meadow": "2023-04-12 05:13:24 +0000",
+      "minecraft:savanna": "2023-04-16 04:07:33 +0000",
       "minecraft:plains": "2023-04-12 04:33:43 +0000"
     },
     "done": false
@@ -427,6 +430,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_porkchop": "2023-04-16 05:01:53 +0000",
       "cooked_mutton": "2023-04-10 05:41:09 +0000",
       "cooked_beef": "2023-04-11 04:38:43 +0000",
       "bread": "2023-04-10 06:21:44 +0000",
@@ -1028,7 +1032,10 @@
     "criteria": {
       "minecraft:pillager": "2023-04-12 05:29:26 +0000",
       "minecraft:skeleton": "2023-04-10 05:57:46 +0000",
+      "minecraft:ravager": "2023-04-16 04:15:59 +0000",
+      "minecraft:spider": "2023-04-16 04:02:52 +0000",
       "minecraft:creeper": "2023-04-12 04:17:39 +0000",
+      "minecraft:husk": "2023-04-16 04:53:13 +0000",
       "minecraft:zombie": "2023-04-10 06:22:33 +0000",
       "minecraft:drowned": "2023-04-12 04:59:06 +0000"
     },
@@ -2168,6 +2175,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/blue_dye_from_cornflower": {
+    "criteria": {
+      "has_cornflower": "2023-04-13 04:03:54 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_porkchop": {
     "criteria": {
       "has_porkchop": "2023-04-13 04:06:10 +0000"
@@ -2180,15 +2193,147 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/blue_dye_from_cornflower": {
-    "criteria": {
-      "has_cornflower": "2023-04-13 04:03:54 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/food/cooked_porkchop_from_smoking": {
     "criteria": {
       "has_porkchop": "2023-04-13 04:06:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/acacia_button": {
+    "criteria": {
+      "has_planks": "2023-04-16 05:00:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2023-04-16 04:42:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_campfire_cooking": {
+    "criteria": {
+      "has_chicken": "2023-04-16 05:00:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/acacia_pressure_plate": {
+    "criteria": {
+      "has_planks": "2023-04-16 05:00:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/fermented_spider_eye": {
+    "criteria": {
+      "has_spider_eye": "2023-04-16 04:02:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/acacia_sign": {
+    "criteria": {
+      "has_planks": "2023-04-16 05:00:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken": {
+    "criteria": {
+      "has_chicken": "2023-04-16 05:00:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_beetroot": {
+    "criteria": {
+      "has_beetroot": "2023-04-16 04:52:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_smoking": {
+    "criteria": {
+      "has_chicken": "2023-04-16 05:00:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/acacia_slab": {
+    "criteria": {
+      "has_planks": "2023-04-16 05:00:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/beetroot_soup": {
+    "criteria": {
+      "has_beetroot": "2023-04-16 04:52:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/acacia_trapdoor": {
+    "criteria": {
+      "has_planks": "2023-04-16 05:00:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_sandstone": {
+    "criteria": {
+      "has_sand": "2023-04-16 04:48:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/emerald_block": {
+    "criteria": {
+      "has_emerald": "2023-04-16 04:13:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/acacia_fence": {
+    "criteria": {
+      "has_planks": "2023-04-16 05:00:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/acacia_wood": {
+    "criteria": {
+      "has_log": "2023-04-16 05:00:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/acacia_stairs": {
+    "criteria": {
+      "has_planks": "2023-04-16 05:00:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/green_dye": {
+    "criteria": {
+      "has_cactus": "2023-04-16 04:45:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/hero_of_the_village": {
+    "criteria": {
+      "hero_of_the_village": "2023-04-16 04:16:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/acacia_door": {
+    "criteria": {
+      "has_planks": "2023-04-16 05:00:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trade": {
+    "criteria": {
+      "traded": "2023-04-16 04:35:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/acacia_fence_gate": {
+    "criteria": {
+      "has_planks": "2023-04-16 05:00:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/acacia_planks": {
+    "criteria": {
+      "has_log": "2023-04-16 05:00:16 +0000"
     },
     "done": true
   },
