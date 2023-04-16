@@ -35,6 +35,7 @@
       "minecraft:old_growth_spruce_taiga": "2023-04-11 01:29:23 +0000",
       "minecraft:snowy_beach": "2023-04-11 02:02:46 +0000",
       "minecraft:old_growth_birch_forest": "2023-04-07 06:59:22 +0000",
+      "minecraft:deep_dark": "2023-04-16 06:42:16 +0000",
       "minecraft:meadow": "2023-04-16 04:12:09 +0000",
       "minecraft:savanna": "2023-04-10 04:41:47 +0000",
       "minecraft:plains": "2023-04-10 04:38:03 +0000"
@@ -2158,6 +2159,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/brown_glazed_terracotta": {
+    "criteria": {
+      "has_brown_terracotta": "2023-04-16 04:51:43 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/lime_terracotta": {
     "criteria": {
       "has_terracotta": "2023-04-16 04:52:59 +0000"
@@ -2170,12 +2177,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/yellow_glazed_terracotta": {
-    "criteria": {
-      "has_yellow_terracotta": "2023-04-16 04:53:18 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/white_terracotta": {
     "criteria": {
       "has_terracotta": "2023-04-16 04:52:59 +0000"
@@ -2185,12 +2186,6 @@
   "minecraft:recipes/building_blocks/orange_terracotta": {
     "criteria": {
       "has_terracotta": "2023-04-16 04:52:59 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/orange_glazed_terracotta": {
-    "criteria": {
-      "has_orange_terracotta": "2023-04-16 04:53:10 +0000"
     },
     "done": true
   },
@@ -2215,12 +2210,6 @@
   "minecraft:recipes/building_blocks/magenta_terracotta": {
     "criteria": {
       "has_terracotta": "2023-04-16 04:52:59 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/brown_glazed_terracotta": {
-    "criteria": {
-      "has_brown_terracotta": "2023-04-16 04:51:43 +0000"
     },
     "done": true
   },
@@ -2269,6 +2258,48 @@
   "minecraft:recipes/building_blocks/brown_terracotta": {
     "criteria": {
       "has_terracotta": "2023-04-16 04:52:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/orange_glazed_terracotta": {
+    "criteria": {
+      "has_orange_terracotta": "2023-04-16 04:53:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/yellow_glazed_terracotta": {
+    "criteria": {
+      "has_yellow_terracotta": "2023-04-16 04:53:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/chest_minecart": {
+    "criteria": {
+      "has_minecart": "2023-04-16 06:37:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/furnace_minecart": {
+    "criteria": {
+      "has_minecart": "2023-04-16 06:37:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/hopper_minecart": {
+    "criteria": {
+      "has_minecart": "2023-04-16 06:37:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/tnt_minecart": {
+    "criteria": {
+      "has_minecart": "2023-04-16 06:37:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/rail": {
+    "criteria": {
+      "has_minecart": "2023-04-16 06:37:03 +0000"
     },
     "done": true
   },
