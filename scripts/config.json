@@ -73,6 +73,19 @@
   ],
   "projects": [
     {
+      "name": "Leadster Frontend Teste",
+      "chips": [
+        "Styled-Components",
+        "NextJS",
+        "JavaScript"
+      ],
+      "githubLink": "https://github.com/MarllonCampos/leadster-developer-test",
+      "image": {
+        "url": "/imagens/project-leadster-developer-test.png",
+        "alt": "Leadster Test"
+      }
+    },
+    {
       "name": "Site de Gatinhos",
       "chips": [
         "HTML",

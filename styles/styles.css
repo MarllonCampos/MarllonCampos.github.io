@@ -67,7 +67,7 @@ header a {
 }
 
 header a::after {
-  content: "";
+  content: '';
   display: block;
   background-color: var(--base-400);
   width: 0px;
@@ -146,7 +146,7 @@ section h2 {
 }
 
 .project-full .img-holder::after {
-  content: "";
+  content: '';
   position: absolute;
   background: var(--base-400) url(../imagens/icons/github-icon.svg) no-repeat center center;
   background-size: 100%;
@@ -169,6 +169,21 @@ section h2 {
   display: flex;
   margin-top: 8px;
   gap: 12px 8px;
+}
+
+.project-card .techs {
+  overflow-x: auto;
+}
+
+.project-card .techs::-webkit-scrollbar {
+  height: 2px;
+}
+
+.project-info .techs::-webkit-scrollbar-thumb {
+  background-color: var(--base-400);
+}
+.project-info .techs::-webkit-scrollbar-track {
+  background-color: var(--blue-300);
 }
 
 .project-full .project-info h3 {
@@ -205,9 +220,8 @@ footer {
   align-items: center;
   gap: 8px;
 }
-
 @media (max-width: 500px) {
-  .project-info .techs {
+  .fullstack-projects .techs {
     flex-wrap: wrap;
   }
 }
